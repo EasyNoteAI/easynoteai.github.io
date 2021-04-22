@@ -2017,6 +2017,67 @@ body {
     background-color: #fff;
   }
 }
+.no-select {
+  -moz-user-select:none;/*火狐*/
+  -webkit-user-select:none;/*webkit浏览器*/
+  -ms-user-select:none;/*IE10*/
+  -khtml-user-select:none;/*早期浏览器*/
+  user-select:none;
+}
+
+iframe {
+  border: none;
+}
+
+#product-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgba($color: #000000, $alpha: 0.2);
+  text-align: center;
+  display: none;
+  
+  .btn-close-iframe {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid #efefef;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+    padding: 8px 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3385FF;
+    cursor: pointer;
+  }
+
+  #demo {
+    width:80%;
+    height: 100%;
+  }
+}
+
+.options-product {
+  text-align: center;
+  margin: 10px 0;
+
+  #btn-open-product {
+    border: 1px solid #efefef;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+    padding: 8px 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3385FF;
+    cursor: pointer;
+    display: inline;
+    width: 100px;
+  }
+}
+
 
 @-webkit-keyframes sk-rotatePlane {
   0% {
@@ -2738,6 +2799,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  #demo {
+    width: 90%;
+  }
   .landing-page {
     .carousel-caption {
       left: 5%;
