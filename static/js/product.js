@@ -4,8 +4,16 @@ $(function(){
     })
     $("#btn-close").click(()=>{
         $("#product-container").hide()
+        $('body').css({ 
+        　　"overflow-x":"auto",
+        　　"overflow-y":"auto"
+        });
     })
     $("#btn-open-product").click(()=>{
         $("#product-container").show()
+        $('body').css({ 
+        　　"overflow-x":"hidden",
+        　　"overflow-y":"hidden"
+        });
     })
 })
