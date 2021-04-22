@@ -1,7 +1,4 @@
 $(function(){
-    $("#btnProduct").click(()=>{
-        $("#product-container").show()
-    })
     $("#btn-close").click(()=>{
         $("#product-container").hide()
         $('body').css({ 
