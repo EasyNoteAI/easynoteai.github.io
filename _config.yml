@@ -30,6 +30,9 @@ author:  # change following line to your infomation.
     - name: icon-apache
   desc: Introduce text will be here.  # Describe yourself.
 
+# 关闭按钮
+close_img: '/static/assets/img/landing/close.png'
+
 # comment
 # disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
 #   name: jalpc

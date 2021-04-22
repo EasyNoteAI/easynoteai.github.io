@@ -52,9 +52,11 @@ permalink: /
 </section>
 {% endfor %}
 <div id="product-container">
-  <div id="btn-close" class="btn-close-iframe no-select">关闭</div>
-  <!-- ifram's src maybe replace others -->
-  <iframe id="demo" src="//demo.freedomnotes.cn/v2/index.html"></iframe>
+  <div id="demo">
+    <img id="btn-close" class="btn-close-iframe" src="{{site.close_img}}" />
+    <!-- ifram's src maybe replace others -->
+    <iframe src="//demo.freedomnotes.cn/v2/index.html"></iframe>
+  </div>
 </div>
 
 <!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
