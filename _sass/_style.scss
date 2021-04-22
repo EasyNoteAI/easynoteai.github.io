@@ -3,6 +3,10 @@
     text-transform: uppercase;
   }
 }
+// loading的自转加载按钮
+.pace .pace-activity {
+  display: none !important;
+}
 
 button.dim {
   text-transform: uppercase;
