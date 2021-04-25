@@ -5,18 +5,18 @@
   # i18n: 
   # gh_user: 
   # repo:
-  img: /static/assets/img/landing/ic_compose_76.png
+  img: /static/assets/img/landing/ic_compose.jpg
   desc: desc for AI Composer
 
 - name: Arranger
   # i18n: 
   # gh_user: 
   # repo:
-  img: /static/assets/img/landing/ic_arrange_76.png
+  img: /static/assets/img/landing/ic_arrange.jpg
   desc: desc for AI Arranger
 
 - name: Mixer
   # i18n: 
   # url: 
-  img: /static/assets/img/landing/ic_mixer_76.png
+  img: /static/assets/img/landing/ic_mixer.jpg
   desc: desc for AI Mixer
