@@ -2076,7 +2076,9 @@ iframe {
   #btn-open-product {
     border: 1px solid #efefef;
     box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
-    padding: 8px 20px;
+    padding: 0 24px;
+    height: 40px;
+    line-height: 40px;
     overflow: hidden;
     border-radius: 5px;
     background-color: #fff;
@@ -2084,6 +2086,8 @@ iframe {
     cursor: pointer;
     display: inline-block;
     margin-top: 15px;
+    font-weight: 700;
+    font-size: 14px;
   }
 }
 
