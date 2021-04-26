@@ -6,17 +6,17 @@
   # gh_user: 
   # repo:
   img: /static/assets/img/landing/ic_compose.jpg
-  desc: desc for AI Composer
+  desc: We've created a deep neural network that can generate musical compositions with 10 different instruments.
 
 - name: Arranger
   # i18n: 
   # gh_user: 
   # repo:
   img: /static/assets/img/landing/ic_arrange.jpg
-  desc: desc for AI Arranger
+  desc: AI arranger needs a combination of a rich library of instruments and playing techniques. We provide a variety of Instruments to match the generated melody, and are constantly expanding.
 
 - name: Mixer
   # i18n: 
   # url: 
   img: /static/assets/img/landing/ic_mixer.jpg
-  desc: desc for AI Mixer
+  desc: We also provide automatic mixing technology to facilitate artists to generate music with one click.
