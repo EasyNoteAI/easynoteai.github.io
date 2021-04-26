@@ -4,8 +4,16 @@ $(function(){
         let tag = document.querySelector(".carousel-inner .item.active")
         if (!tag) return
         let docs = document.querySelectorAll('.sprite')
+        let z;
         for (let i=0; i < docs.length; i++) {
-            docs[i].style.zoom = Math.ceil( tag.clientWidth * 1000 / 1900) / 1000
+            z = Math.ceil( tag.clientWidth * 1000 / 1900) / 1000 
+            // docs[i].style.zoom = z
+            // firfox不支持zoom
+            // transform不会改变原有占位空间，所以需要将父元素的高度改变
+            docs[i].style['transform'] = `scale(${z})`
+            docs[i].style['transform-origin'] = '0 0'
+
+            docs[i].parentElement.style.height = `${500 * z}px`
         }
     }
     window.onresize = formatHeaderSize
